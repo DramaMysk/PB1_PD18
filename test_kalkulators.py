@@ -1,4 +1,8 @@
+import unittest
 from kalkulators import saskaitit
 
-def test_saskaitit():
-    assert saskaitit (3, 3) == 6
+
+class TestKalkulators(unittest.TestCase):
+    def test_saskaitit(self):
+        rezultats = saskaitit(3, 3)
+        self.assertEqual(rezultats, 6)
