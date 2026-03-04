@@ -1,7 +1,7 @@
 
 
 def saskaitit(a, b):
-    print(a + b)
+    print(f"Divu skaitlu summa ir: {a + b}")
     return a + b
 
 
